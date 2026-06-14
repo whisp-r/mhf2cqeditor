@@ -1,0 +1,238 @@
+﻿{
+  "headerSection": {
+    "identifier": null,
+    "bossSize": null,
+    "largeMonsterSize%": null,
+    "fixedValue": null,
+    "guildPointsReward": null,
+    "unknown0": null,
+    "carvingDifficulty": null,
+    "arrivalPosition": null,
+    "supplyState": {
+      "supplyMode": null,
+      "supplyConditions": null,
+      "conditionQuantity": null
+    },
+    "difficulty": null,
+    "unknown1": null,
+    "smallMonsterChange0": {
+      "changeCondition": null,
+      "targetCode": null,
+      "quantity": null,
+      "sequenceNumber": null
+    },
+    "smallMonsterChange1": {
+      "changeCondition": null,
+      "targetCode": null,
+      "quantity": null,
+      "sequenceNumber": null
+    }
+  },
+  "questInformation": {
+    "questType": null,
+    "additional": null,
+    "unknown0": null,
+    "contractFee": null,
+    "rewardMoney": null,
+    "felyneCartLoss": null,
+    "questTime": null,
+    "questNumber": null,
+    "questStarLevel": null,
+    "unknown1": null,
+    "questMap": null,
+    "specialConditions": null,
+    "targetCount": null,
+    "unknown2": null,
+    "questTarget0": {
+      "questCondition": null,
+      "additionalCondition": null,
+      "unknown0": null,
+      "targetCode": null,
+      "quantity": null
+    },
+    "questTarget1": {
+      "questCondition": null,
+      "additionalCondition": null,
+      "unknown0": null,
+      "targetCode": null,
+      "quantity": null
+    }
+  },
+  "textCommissionContent": {
+    "questName": null,
+    "successDesc": null,
+    "failureDesc": null,
+    "questDesc": null,
+    "mainMonster": null,
+    "client": null
+  },
+  "commissionContent": null,
+  "questContent": null,
+  "fixedInformation": {
+    "initialInfoState": null,
+    "unknown0": null,
+    "unknownValue": null,
+    "unknown1": null,
+    "endMarker": null,
+    "unknown2": null
+  },
+  "supplyItems": {
+    "item0": {
+      "itemCode": null,
+      "quantity": null
+    },
+    "item1": {
+      "itemCode": null,
+      "quantity": null
+    },
+    "endMarker": null
+  },
+  "postSupplyQuestNumber": null,
+  "gatherMaterial": {
+    "gatherMaterial0": {
+      "probability": null,
+      "itemCode": null
+    },
+    "gatherMaterial1": {
+      "probability": null,
+      "itemCode": null
+    },
+    "endMarker": null
+  },
+  "gatherPointData": {
+    "gatherCode0": null,
+    "gatherCode1": null,
+    "endMarker": null
+  },
+  "areaSettings": {
+    "gatherPoint0": {
+      "X": null,
+      "Z": null,
+      "Y": null,
+      "effectiveRange": null,
+      "gatherCode": null,
+      "gatherFreqUpperLimit": null,
+      "gatherType": null,
+      "gatherFreqLowerLimit": null
+    },
+    "gatherPoint1": {
+      "X": null,
+      "Z": null,
+      "Y": null,
+      "effectiveRange": null,
+      "gatherCode": null,
+      "gatherFreqUpperLimit": null,
+      "gatherType": null,
+      "gatherFreqLowerLimit": null
+    },
+    "gatherPoint2": {
+      "X": null,
+      "Z": null,
+      "Y": null,
+      "effectiveRange": null,
+      "gatherCode": null,
+      "gatherFreqUpperLimit": null,
+      "gatherType": null,
+      "gatherFreqLowerLimit": null
+    },
+    "gatherPoint3": {
+      "X": null,
+      "Z": null,
+      "Y": null,
+      "effectiveRange": null,
+      "gatherCode": null,
+      "gatherFreqUpperLimit": null,
+      "gatherType": null,
+      "gatherFreqLowerLimit": null
+    },
+    "unknownBlock": null
+  },
+  "gatherInfo": {
+    "areaInfo0": null,
+    "areaInfo1": null,
+    "endMarker": null
+  },
+  "rewardBlock": {
+    "rewardEntry0": {
+      "probability": null,
+      "rewardCode": null,
+      "quantity": null
+    },
+    "endMarker": null
+  },
+  "questRewards": {
+    "rewardType0": {
+      "rewardAcquisitionConditionCode": null
+    },
+    "endMarker": null
+  },
+  "unknownInformation": {
+    "endMarker": null,
+    "unknownBlock": null
+  },
+  "spawnDetailsSmall": {
+    "spawnDetailsContent0": {
+      "code": null,
+      "state": null,
+      "quantity": null,
+      "unknownValue": null,
+      "unknown0": null,
+      "orientation": null,
+      "X": null,
+      "Z": null,
+      "Y": null,
+      "inQuestSequenceNumber": null,
+      "unknown2": null,
+      "inQuestSize": null,
+      "inQuestHP": null,
+      "unknown3": null
+    },
+    "endMarker": null
+  },
+  "initSmallMon": {
+    "areaInfo0": {
+      "areaCode": null,
+      "smallMonSpawn0": null,
+      "smallMonSpawn1": null,
+      "smallMonSpawn2": null,
+      "smallMonSpawn3": null,
+      "unknown0": null
+    },
+    "endMarker": null,
+    "unknown0": null
+  },
+  "smallMonInfo": {
+    "unknown0": null
+  },
+  "spawnDetailsBoss": {
+    "spawnDetailsContent0": {
+      "code": null,
+      "state": null,
+      "quantity": null,
+      "unknown0": null,
+      "spawnArea": null,
+      "unknown1": null,
+      "orientation": null,
+      "X": null,
+      "Z": null,
+      "Y": null,
+      "inQuestSequenceNumber": null,
+      "unknown2": null,
+      "inQuestSize": null,
+      "inQuestHP": null,
+      "unknown3": null
+    },
+    "endMarker": null,
+    "unknown0": null
+  },
+  "bossSpawn": {
+    "bossSpawn0": null,
+    "bossSpawn1": null,
+    "bossSpawn2": null,
+    "bossSpawn3": null
+  },
+  "bossInformation": {
+    "unknown0": null,
+    "unknown1": null
+  }
+}
