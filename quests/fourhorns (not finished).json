@@ -1,0 +1,93 @@
+{
+  "headerSection": {
+    "bossSize": "7100",
+    "largeMonsterSize%": "04",
+    "fixedValue": "03",
+    "guildPointsReward": "B6030000",
+    "carvingDifficulty": "01",
+    "arrivalPosition": "00",
+    "supplyState": {
+      "supplyMode": "00",
+      "supplyConditions": "00",
+      "conditionQuantity": "00"
+    },
+    "difficulty": "01",
+    "smallMonsterChange0": {
+      "changeCondition": "00",
+      "targetCode": "00",
+      "quantity": "00",
+      "sequenceNumber": "01"
+    },
+    "smallMonsterChange1": {
+      "changeCondition": "00",
+      "targetCode": "00",
+      "quantity": "00",
+      "sequenceNumber": "02"
+    }
+  },
+
+  "questInformation": {
+    "questType": "04",
+    "additional": "40",
+    "unknown0": "0002",
+    "contractFee": "7206",
+    "rewardMoney": "AC260000",
+    "felyneCartLoss": "E40C0000",
+    "questTime": "905F0100",
+    "questNumber": "0829",
+    "questStarLevel": "06",
+    "unknown1": "01",
+    "questMap": "11",
+    "specialConditions": "00",
+    "targetCount": "02",
+    "unknown2": "00",
+    "questTarget0": {
+      "questCondition": "01",
+      "additionalCondition": "0000",
+      "unknown0": "0",
+      "targetCode": "0E00",
+      "quantity": "0100"
+    },
+    "questTarget1": {
+      "questCondition": "01",
+      "additionalCondition": "0000",
+      "unknown0": "00",
+      "targetCode": "2B00",
+      "quantity": "0100"
+    }
+  },
+
+  "textCommissionContent": {
+    "questName": "Four Horns",
+    "successDesc": "Hunt the Diablos and\nBlack Diablos",
+    "failureDesc": "Reward Zero\nTime Over",
+    "questDesc": "I simply can't bear to think\nabout the terror and pain\nthose Diablos are causing my\npeople. I can't sleep at\nnight with that worry! Hunt \ndown those 2 Diablos for me!",
+    "mainMonster": "Diablos\nBlack Diablos",
+    "client": "Lovely Princess"
+  },
+  "fixedInformation": {
+    "initialInfoState": "1B000000",
+    "unknown0": "0000",
+    "unknownValue": "0300",
+    "unknown1": "000000",
+    "endMarker": "FFFF000000000000",
+    "unknown2": "2D000000000000001E00000000000000FEFF00000000000009009600000000000A000000000000001F000000000000001A00000000000000250000000000000009009600000000000A000000000000001F00000000000000"
+  },
+  "supplyItems": [
+        { "itemCode": "8102", "quantity": "0100" },
+        { "itemCode": "8502", "quantity": "0200" },
+        { "itemCode": "8202", "quantity": "0300" },
+        { "itemCode": "8302", "quantity": "0300" },
+        { "itemCode": "3E00", "quantity": "0200" },
+        { "itemCode": "1600", "quantity": "0200" },
+        { "itemCode": "5E00", "quantity": "0100" },
+        { "itemCode": "6400", "quantity": "0A00" },
+        { "itemCode": "8100", "quantity": "0F00" },
+        { "itemCode": "4000", "quantity": "0200" }
+  ],
+
+  "gatherMaterial": [
+    
+  ]
+
+}

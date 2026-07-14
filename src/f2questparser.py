@@ -18,7 +18,7 @@ symbols = {}  # name -> offset
 patches = []  # (target_name, placeholder_offset)
 
 
-def mark(name: str):
+def mark(name: str): 
     """Remember the current offset as 'name'."""
     symbols[name] = len(buf)
 
@@ -165,7 +165,7 @@ w_hex("0000")
 w_hex(data["questInformation"]["questNumber"])  # postSupplyQuestNumber
 
 
-for i, code in enumerate(data["gatheringPointData"]):
+for i, code in enumerate(data["gatherPointData"]):
     mark(f"gatherCode{i}")
     for material in code:
         w_hex(material["probability"])
@@ -174,9 +174,9 @@ for i, code in enumerate(data["gatheringPointData"]):
     align4()
 
 mark("gatherPointData")
-for i, code in enumerate(data["gatheringPointData"]):
+for i, code in enumerate(data["gatherPointData"]):
     w_ptr(f"gatherCode{i}")
-# w_hex("FFFFFFFF")  # custom end marker
+w_hex("FFFFFFFF")  # custom end marker
 
 
 for i, area in enumerate(data["gatherInfo"]):
@@ -200,7 +200,7 @@ for i, area in enumerate(data["gatherInfo"]):
         w_ptr(f"areaInfo{i}")
     else:
         w_hex("00000000")  # null ptr
-# w_hex("FFFFFFFF")  # custom end marker
+w_hex("FFFFFFFF")  # custom end marker
 
 
 for i, rewardType in enumerate(data["questRewards"]):
@@ -362,7 +362,7 @@ for detail in data["bossInfo"]["spawnDetails"]:
     w_hex(detail["quantity"])
     w_pad(2)
     w_hex(detail["spawnArea"])
-    w_pad(20)
+    w_hex(detail["unknown0"])
     w_hex(detail["orientation"])
     w_hex(detail["X"])
     w_hex(detail["Z"])
