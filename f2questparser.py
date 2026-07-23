@@ -477,32 +477,32 @@ def encode_quest(data: dict) -> bytearray:
     symbols = {}  # name -> offset
     patches = []  # (target_name, placeholder_offset)
 
-    def mark(name: str):
+    def mark(name: str) -> None:
         """Remember the current offset as 'name'."""
         symbols[name] = len(buf)
 
-    def w_ptr(target: str):
+    def w_ptr(target: str) -> None:
         """Write a 4-byte placeholder and record where to patch later."""
         patches.append((target, len(buf)))
         buf.extend(b"\xdd\xdd\xdd\xdd")  # placeholder
 
-    def align4():
+    def align4() -> None:
         """Align to 4-bytes"""
         while len(buf) % 4 != 0:
             buf.extend(b"\x00")
 
-    def w_str(data: str):
+    def w_str(data: str) -> None:
         """Write 4-byte aligned null terminated utf-8 encoded string"""
         align4()
         raw = data.encode("utf-8") + b"\x00"
         buf.extend(raw)
         align4()
 
-    def w_hex(data: str):
+    def w_hex(data: str) -> None:
         """Writes a string of hex characters as bytes"""
         buf.extend(bytes.fromhex(data))
 
-    def w_pad(n: int):
+    def w_pad(n: int) -> None:
         """Writes 0's repeated n times"""
         buf.extend(b"\x00" * n)
 
