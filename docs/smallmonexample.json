@@ -1,0 +1,51 @@
+{
+  "initSmallMon": [
+    {
+      "areaCode": "01000000",
+      "smallMonSpawn0": "FFFFFFFF",
+      "smallMonSpawn1": "FFFFFFFF",
+      "smallMonSpawn2": "FFFFFFFF",
+      "smallMonSpawn3": "FFFFFFFF",
+      "spawnDetails": []
+    },
+    {
+      "areaCode": "01000000",
+      "smallMonSpawn0": "",
+      "smallMonSpawn1": "",
+      "smallMonSpawn2": "",
+      "smallMonSpawn3": "",
+      "spawnDetails": []
+    }
+  ],
+  "unknownPostinitSmallMon": " some value 12 bytes",
+  "changeSmallMon1": [
+    {
+      "areaCode": "01000000",
+      "smallMonSpawn0": "",
+      "smallMonSpawn1": "",
+      "smallMonSpawn2": "",
+      "smallMonSpawn3": "",
+      "spawnDetails": [
+        {
+          "code": null,
+          "state": null,
+          "quantity": null,
+          "unknownValue": null,
+          "unknown0": null,
+          "orientation": null,
+          "X": null,
+          "Z": null,
+          "Y": null,
+          "inQuestSequenceNumber": null,
+          "unknown2": null,
+          "inQuestSize": null,
+          "inQuestHP": null,
+          "unknown3": null
+        }
+      ]
+    }
+  ],
+  "unknownPostChangeSmallMon1": " some value 12 bytes",
+  "changeSmallMon2": [],
+  "unknownPostChangeSmallMon2": " some value 12 bytes"
+}
