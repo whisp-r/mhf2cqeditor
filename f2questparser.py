@@ -391,6 +391,7 @@ def decode_quest(data: bytearray) -> dict:
         temp = read_u32()
         if temp == 0x00000000:
             saved = get_offset()
+            gatherInfoArr.append([]) # empty arr if area pointer is null
             continue
         elif not valid_ptr(temp):
             break
